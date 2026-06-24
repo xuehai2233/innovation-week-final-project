@@ -1,0 +1,4865 @@
+{
+  "CONCEDE": {
+    "concept_id": "CONCEDE",
+    "jp": "投了",
+    "canonical_cn": "投降",
+    "aliases_cn": [
+      "投降"
+    ],
+    "aliases_jp": [
+      "投了"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Concede"
+    ],
+    "aliases": [
+      "Concede",
+      "投了"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "DEFENSE": {
+    "concept_id": "DEFENSE",
+    "jp": "体力",
+    "canonical_cn": "生命值",
+    "aliases_cn": [
+      "生命值"
+    ],
+    "aliases_jp": [
+      "体力"
+    ],
+    "aliases_player": [
+      "体力"
+    ],
+    "aliases_en": [
+      "Defense",
+      "Life"
+    ],
+    "aliases": [
+      "体力",
+      "Defense",
+      "Life"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "DRAW_GAME": {
+    "concept_id": "DRAW_GAME",
+    "jp": "引き分け",
+    "canonical_cn": "平局",
+    "aliases_cn": [
+      "平局"
+    ],
+    "aliases_jp": [
+      "引き分け"
+    ],
+    "aliases_player": [
+      "和局"
+    ],
+    "aliases_en": [
+      "Draw"
+    ],
+    "aliases": [
+      "和局",
+      "Draw",
+      "引き分け"
+    ],
+    "category": "basic",
+    "rule_refs": [
+      "1.2.2"
+    ]
+  },
+  "ELAPSED_TURN_COUNT": {
+    "concept_id": "ELAPSED_TURN_COUNT",
+    "jp": "経過ターン数",
+    "canonical_cn": "经过回合数",
+    "aliases_cn": [
+      "经过回合数"
+    ],
+    "aliases_jp": [
+      "経過ターン数"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Elapsed turn count"
+    ],
+    "aliases": [
+      "Elapsed turn count",
+      "経過ターン数"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "EP": {
+    "concept_id": "EP",
+    "jp": "EP",
+    "canonical_cn": "EP",
+    "aliases_cn": [
+      "EP",
+      "进化点"
+    ],
+    "aliases_jp": [
+      "EP",
+      "エボルヴポイント"
+    ],
+    "aliases_player": [
+      "EP"
+    ],
+    "aliases_en": [
+      "EP",
+      "Evolution Point"
+    ],
+    "aliases": [
+      "进化点",
+      "Evolution Point",
+      "エボルヴポイント"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "LEADER": {
+    "concept_id": "LEADER",
+    "jp": "リーダー",
+    "canonical_cn": "主战者",
+    "aliases_cn": [
+      "主战者"
+    ],
+    "aliases_jp": [
+      "リーダー"
+    ],
+    "aliases_player": [
+      "领导者",
+      "领袖"
+    ],
+    "aliases_en": [
+      "Leader"
+    ],
+    "aliases": [
+      "领导者",
+      "领袖",
+      "Leader",
+      "リーダー"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "LOSE": {
+    "concept_id": "LOSE",
+    "jp": "敗北",
+    "canonical_cn": "败北",
+    "aliases_cn": [
+      "败北"
+    ],
+    "aliases_jp": [
+      "敗北"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Lose"
+    ],
+    "aliases": [
+      "Lose",
+      "敗北"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "NON_TURN_PLAYER": {
+    "concept_id": "NON_TURN_PLAYER",
+    "jp": "非ターンプレイヤー",
+    "canonical_cn": "非回合玩家",
+    "aliases_cn": [
+      "非回合玩家"
+    ],
+    "aliases_jp": [
+      "非ターンプレイヤー"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Non-turn player"
+    ],
+    "aliases": [
+      "Non-turn player",
+      "非ターンプレイヤー"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "OPPONENT": {
+    "concept_id": "OPPONENT",
+    "jp": "対戦相手",
+    "canonical_cn": "对战对手",
+    "aliases_cn": [
+      "对战对手",
+      "敌方"
+    ],
+    "aliases_jp": [
+      "対戦相手"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Opponent"
+    ],
+    "aliases": [
+      "敌方",
+      "Opponent",
+      "対戦相手"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "PLAYER": {
+    "concept_id": "PLAYER",
+    "jp": "プレイヤー",
+    "canonical_cn": "玩家",
+    "aliases_cn": [
+      "玩家"
+    ],
+    "aliases_jp": [
+      "プレイヤー"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Player"
+    ],
+    "aliases": [
+      "Player",
+      "プレイヤー"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "PP": {
+    "concept_id": "PP",
+    "jp": "PP",
+    "canonical_cn": "PP",
+    "aliases_cn": [
+      "PP",
+      "能量点"
+    ],
+    "aliases_jp": [
+      "PP",
+      "プレイポイント"
+    ],
+    "aliases_player": [
+      "PP"
+    ],
+    "aliases_en": [
+      "PP",
+      "Play Point"
+    ],
+    "aliases": [
+      "能量点",
+      "Play Point",
+      "プレイポイント"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "SEP": {
+    "concept_id": "SEP",
+    "jp": "SEP",
+    "canonical_cn": "超进化点",
+    "aliases_cn": [
+      "超进化点"
+    ],
+    "aliases_jp": [
+      "SEP"
+    ],
+    "aliases_player": [
+      "SEP"
+    ],
+    "aliases_en": [
+      "SEP",
+      "Super Evolution Point"
+    ],
+    "aliases": [
+      "SEP",
+      "Super Evolution Point"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "TERM_5148_653B": {
+    "concept_id": "TERM_5148_653B",
+    "jp": "先攻",
+    "canonical_cn": "先攻",
+    "aliases_cn": [
+      "先攻"
+    ],
+    "aliases_jp": [
+      "先攻"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "TERM_540E_653B": {
+    "concept_id": "TERM_540E_653B",
+    "jp": "後攻",
+    "canonical_cn": "后攻",
+    "aliases_cn": [
+      "后攻"
+    ],
+    "aliases_jp": [
+      "後攻"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "後攻"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "TERM_56DE_5408": {
+    "concept_id": "TERM_56DE_5408",
+    "jp": "ターン",
+    "canonical_cn": "回合",
+    "aliases_cn": [
+      "回合"
+    ],
+    "aliases_jp": [
+      "ターン"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "ターン"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "TERM_5BF9_6218": {
+    "concept_id": "TERM_5BF9_6218",
+    "jp": "対戦",
+    "canonical_cn": "对战",
+    "aliases_cn": [
+      "对战"
+    ],
+    "aliases_jp": [
+      "対戦",
+      "バトル"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "対戦",
+      "バトル"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "TERM_6E38_620F": {
+    "concept_id": "TERM_6E38_620F",
+    "jp": "ゲーム",
+    "canonical_cn": "游戏",
+    "aliases_cn": [
+      "游戏"
+    ],
+    "aliases_jp": [
+      "ゲーム"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "ゲーム"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "TERM_80DC_8D1F": {
+    "concept_id": "TERM_80DC_8D1F",
+    "jp": "勝敗",
+    "canonical_cn": "胜负",
+    "aliases_cn": [
+      "胜负"
+    ],
+    "aliases_jp": [
+      "勝敗"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "勝敗"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "TURN_PLAYER": {
+    "concept_id": "TURN_PLAYER",
+    "jp": "ターンプレイヤー",
+    "canonical_cn": "回合玩家",
+    "aliases_cn": [
+      "回合玩家"
+    ],
+    "aliases_jp": [
+      "ターンプレイヤー"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Turn player"
+    ],
+    "aliases": [
+      "Turn player",
+      "ターンプレイヤー"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "WIN": {
+    "concept_id": "WIN",
+    "jp": "勝利",
+    "canonical_cn": "胜利",
+    "aliases_cn": [
+      "胜利"
+    ],
+    "aliases_jp": [
+      "勝利"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Win"
+    ],
+    "aliases": [
+      "Win",
+      "勝利"
+    ],
+    "category": "basic",
+    "rule_refs": []
+  },
+  "TERM_6240_6709_8005": {
+    "concept_id": "TERM_6240_6709_8005",
+    "jp": "オーナー",
+    "canonical_cn": "所有者",
+    "aliases_cn": [
+      "所有者"
+    ],
+    "aliases_jp": [
+      "オーナー"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "オーナー"
+    ],
+    "category": "player",
+    "rule_refs": []
+  },
+  "TERM_63A7_5236_8005": {
+    "concept_id": "TERM_63A7_5236_8005",
+    "jp": "マスター",
+    "canonical_cn": "控制者",
+    "aliases_cn": [
+      "控制者"
+    ],
+    "aliases_jp": [
+      "マスター"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "マスター"
+    ],
+    "category": "player",
+    "rule_refs": []
+  },
+  "TERM_80FD_91CF_70B9_6700": {
+    "concept_id": "TERM_80FD_91CF_70B9_6700",
+    "jp": "PP最大値",
+    "canonical_cn": "能量点最大值",
+    "aliases_cn": [
+      "能量点最大值"
+    ],
+    "aliases_jp": [
+      "PP最大値"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "PP最大値"
+    ],
+    "category": "player",
+    "rule_refs": []
+  },
+  "ADDITIONAL_INFORMATION": {
+    "concept_id": "ADDITIONAL_INFORMATION",
+    "jp": "付帯条項",
+    "canonical_cn": "附注条项",
+    "aliases_cn": [
+      "附注条项",
+      "附注"
+    ],
+    "aliases_jp": [
+      "付帯条項"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Additional information"
+    ],
+    "aliases": [
+      "附注",
+      "Additional information",
+      "付帯条項"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "ADVANCE": {
+    "concept_id": "ADVANCE",
+    "jp": "アドバンス",
+    "canonical_cn": "超克",
+    "aliases_cn": [
+      "超克"
+    ],
+    "aliases_jp": [
+      "アドバンス"
+    ],
+    "aliases_player": [
+      "超克"
+    ],
+    "aliases_en": [
+      "ADVANCE"
+    ],
+    "aliases": [
+      "ADVANCE",
+      "アドバンス"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "ADVANCE_FOLLOWER": {
+    "concept_id": "ADVANCE_FOLLOWER",
+    "jp": "アドバンスフォロワー",
+    "canonical_cn": "高等随从",
+    "aliases_cn": [
+      "Advance 随从",
+      "进阶随从",
+      "高等随从"
+    ],
+    "aliases_jp": [
+      "アドバンスフォロワー"
+    ],
+    "aliases_player": [
+      "Advance"
+    ],
+    "aliases_en": [
+      "Advance Follower"
+    ],
+    "aliases": [
+      "Advance 随从",
+      "进阶随从",
+      "Advance",
+      "Advance Follower",
+      "アドバンスフォロワー"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "AMULET": {
+    "concept_id": "AMULET",
+    "jp": "アミュレット",
+    "canonical_cn": "护符",
+    "aliases_cn": [
+      "护符"
+    ],
+    "aliases_jp": [
+      "アミュレット"
+    ],
+    "aliases_player": [
+      "咏唱物",
+      "护身符"
+    ],
+    "aliases_en": [
+      "Amulet"
+    ],
+    "aliases": [
+      "咏唱物",
+      "护身符",
+      "Amulet",
+      "アミュレット"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "ATTACK_POWER": {
+    "concept_id": "ATTACK_POWER",
+    "jp": "攻撃力",
+    "canonical_cn": "攻击力",
+    "aliases_cn": [
+      "攻击力"
+    ],
+    "aliases_jp": [
+      "攻撃力"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Attack Power"
+    ],
+    "aliases": [
+      "Attack Power",
+      "攻撃力"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "CARD_NAME": {
+    "concept_id": "CARD_NAME",
+    "jp": "カード名",
+    "canonical_cn": "卡牌名称",
+    "aliases_cn": [
+      "卡牌名称"
+    ],
+    "aliases_jp": [
+      "カード名"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Card name"
+    ],
+    "aliases": [
+      "Card name",
+      "カード名"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "CARD_TYPE": {
+    "concept_id": "CARD_TYPE",
+    "jp": "種類",
+    "canonical_cn": "种类",
+    "aliases_cn": [
+      "种类"
+    ],
+    "aliases_jp": [
+      "種類"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Card type"
+    ],
+    "aliases": [
+      "Card type",
+      "種類"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "CLASS": {
+    "concept_id": "CLASS",
+    "jp": "クラス",
+    "canonical_cn": "职业",
+    "aliases_cn": [
+      "职业"
+    ],
+    "aliases_jp": [
+      "クラス"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Class"
+    ],
+    "aliases": [
+      "Class",
+      "クラス"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "COLLABORATION_NAME": {
+    "concept_id": "COLLABORATION_NAME",
+    "jp": "コラボ名",
+    "canonical_cn": "联动名",
+    "aliases_cn": [
+      "联动名",
+      "联动名称"
+    ],
+    "aliases_jp": [
+      "コラボ名"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Collaboration name"
+    ],
+    "aliases": [
+      "联动名称",
+      "Collaboration name",
+      "コラボ名"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "COST": {
+    "concept_id": "COST",
+    "jp": "コスト",
+    "canonical_cn": "费用",
+    "aliases_cn": [
+      "费用",
+      "消费"
+    ],
+    "aliases_jp": [
+      "コスト"
+    ],
+    "aliases_player": [
+      "消费"
+    ],
+    "aliases_en": [
+      "Cost"
+    ],
+    "aliases": [
+      "消费",
+      "Cost",
+      "コスト"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "CREST": {
+    "concept_id": "CREST",
+    "jp": "クレスト",
+    "canonical_cn": "纹章",
+    "aliases_cn": [
+      "纹章"
+    ],
+    "aliases_jp": [
+      "クレスト"
+    ],
+    "aliases_player": [
+      "纹章"
+    ],
+    "aliases_en": [
+      "Crest"
+    ],
+    "aliases": [
+      "Crest",
+      "クレスト"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "DOUBLE_FACED_CARD": {
+    "concept_id": "DOUBLE_FACED_CARD",
+    "jp": "両面カード",
+    "canonical_cn": "双面卡",
+    "aliases_cn": [
+      "双面卡",
+      "两面卡"
+    ],
+    "aliases_jp": [
+      "両面カード"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Double-faced card"
+    ],
+    "aliases": [
+      "两面卡",
+      "Double-faced card",
+      "両面カード"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "DRAGON": {
+    "concept_id": "DRAGON",
+    "jp": "ドラゴン",
+    "canonical_cn": "龙族",
+    "aliases_cn": [
+      "龙族"
+    ],
+    "aliases_jp": [
+      "ドラゴン"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Dragon"
+    ],
+    "aliases": [
+      "Dragon",
+      "ドラゴン"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "EQUIPMENT": {
+    "concept_id": "EQUIPMENT",
+    "jp": "イクイップメント",
+    "canonical_cn": "装备",
+    "aliases_cn": [
+      "装备",
+      "装备衍生物"
+    ],
+    "aliases_jp": [
+      "イクイップメント",
+      "装備（そうび）"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Equipment"
+    ],
+    "aliases": [
+      "装备衍生物",
+      "Equipment",
+      "イクイップメント",
+      "装備（そうび）"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "EVOLVE_FOLLOWER": {
+    "concept_id": "EVOLVE_FOLLOWER",
+    "jp": "エボルヴフォロワー",
+    "canonical_cn": "进化后随从",
+    "aliases_cn": [
+      "进化后随从"
+    ],
+    "aliases_jp": [
+      "エボルヴフォロワー"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Evolve Follower"
+    ],
+    "aliases": [
+      "Evolve Follower",
+      "エボルヴフォロワー"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "EVOLVE_TYPE": {
+    "concept_id": "EVOLVE_TYPE",
+    "jp": "エボルヴ",
+    "canonical_cn": "进化",
+    "aliases_cn": [
+      "进化",
+      "进化后"
+    ],
+    "aliases_jp": [
+      "エボルヴ",
+      "進化する"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "EVOLVE",
+      "Evolve",
+      "—"
+    ],
+    "aliases": [
+      "进化后",
+      "EVOLVE",
+      "Evolve",
+      "—",
+      "エボルヴ",
+      "進化する"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "FLAVOR_TEXT": {
+    "concept_id": "FLAVOR_TEXT",
+    "jp": "フレーバー",
+    "canonical_cn": "背景文本",
+    "aliases_cn": [
+      "背景文本"
+    ],
+    "aliases_jp": [
+      "フレーバー"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Flavor text"
+    ],
+    "aliases": [
+      "Flavor text",
+      "フレーバー"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "FOLLOWER": {
+    "concept_id": "FOLLOWER",
+    "jp": "フォロワー",
+    "canonical_cn": "随从",
+    "aliases_cn": [
+      "随从"
+    ],
+    "aliases_jp": [
+      "フォロワー"
+    ],
+    "aliases_player": [
+      "侍从"
+    ],
+    "aliases_en": [
+      "Follower"
+    ],
+    "aliases": [
+      "侍从",
+      "Follower",
+      "フォロワー"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "FOREST": {
+    "concept_id": "FOREST",
+    "jp": "エルフ",
+    "canonical_cn": "精灵",
+    "aliases_cn": [
+      "精灵"
+    ],
+    "aliases_jp": [
+      "エルフ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Forest"
+    ],
+    "aliases": [
+      "Forest",
+      "エルフ"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "HAVEN": {
+    "concept_id": "HAVEN",
+    "jp": "ビショップ",
+    "canonical_cn": "主教",
+    "aliases_cn": [
+      "主教"
+    ],
+    "aliases_jp": [
+      "ビショップ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Haven"
+    ],
+    "aliases": [
+      "Haven",
+      "ビショップ"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "ILLUSTRATION": {
+    "concept_id": "ILLUSTRATION",
+    "jp": "イラスト",
+    "canonical_cn": "卡图",
+    "aliases_cn": [
+      "卡图"
+    ],
+    "aliases_jp": [
+      "イラスト"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Illustration"
+    ],
+    "aliases": [
+      "Illustration",
+      "イラスト"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "NEUTRAL": {
+    "concept_id": "NEUTRAL",
+    "jp": "ニュートラル",
+    "canonical_cn": "中立",
+    "aliases_cn": [
+      "中立"
+    ],
+    "aliases_jp": [
+      "ニュートラル"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Neutral"
+    ],
+    "aliases": [
+      "Neutral",
+      "ニュートラル"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "NIGHTMARE": {
+    "concept_id": "NIGHTMARE",
+    "jp": "ナイトメア",
+    "canonical_cn": "梦魇",
+    "aliases_cn": [
+      "梦魇"
+    ],
+    "aliases_jp": [
+      "ナイトメア"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Nightmare"
+    ],
+    "aliases": [
+      "Nightmare",
+      "ナイトメア"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "RARITY": {
+    "concept_id": "RARITY",
+    "jp": "レアリティ",
+    "canonical_cn": "稀有度",
+    "aliases_cn": [
+      "稀有度"
+    ],
+    "aliases_jp": [
+      "レアリティ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Rarity"
+    ],
+    "aliases": [
+      "Rarity",
+      "レアリティ"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "ROYAL": {
+    "concept_id": "ROYAL",
+    "jp": "ロイヤル",
+    "canonical_cn": "皇家护卫",
+    "aliases_cn": [
+      "皇家护卫"
+    ],
+    "aliases_jp": [
+      "ロイヤル"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Royal"
+    ],
+    "aliases": [
+      "Royal",
+      "ロイヤル"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "SPECIAL_TYPE": {
+    "concept_id": "SPECIAL_TYPE",
+    "jp": "特殊な種類",
+    "canonical_cn": "特殊种类",
+    "aliases_cn": [
+      "特殊种类"
+    ],
+    "aliases_jp": [
+      "特殊な種類"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Special type"
+    ],
+    "aliases": [
+      "Special type",
+      "特殊な種類"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "SPELL": {
+    "concept_id": "SPELL",
+    "jp": "スペル",
+    "canonical_cn": "法术",
+    "aliases_cn": [
+      "法术"
+    ],
+    "aliases_jp": [
+      "スペル"
+    ],
+    "aliases_player": [
+      "魔法"
+    ],
+    "aliases_en": [
+      "Spell"
+    ],
+    "aliases": [
+      "魔法",
+      "Spell",
+      "スペル"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "TEXT": {
+    "concept_id": "TEXT",
+    "jp": "テキスト",
+    "canonical_cn": "效果文本",
+    "aliases_cn": [
+      "效果文本"
+    ],
+    "aliases_jp": [
+      "テキスト",
+      "カードテキスト"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Text"
+    ],
+    "aliases": [
+      "Text",
+      "テキスト",
+      "カードテキスト"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "TITLE": {
+    "concept_id": "TITLE",
+    "jp": "タイトル",
+    "canonical_cn": "标题",
+    "aliases_cn": [
+      "标题",
+      "作品",
+      "主题"
+    ],
+    "aliases_jp": [
+      "タイトル"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Title"
+    ],
+    "aliases": [
+      "作品",
+      "主题",
+      "Title",
+      "タイトル"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "TOKEN": {
+    "concept_id": "TOKEN",
+    "jp": "トークン",
+    "canonical_cn": "衍生物",
+    "aliases_cn": [
+      "衍生物"
+    ],
+    "aliases_jp": [
+      "トークン"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Token"
+    ],
+    "aliases": [
+      "Token",
+      "トークン"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "TOKEN_INFORMATION": {
+    "concept_id": "TOKEN_INFORMATION",
+    "jp": "トークン情報",
+    "canonical_cn": "衍生物信息",
+    "aliases_cn": [
+      "衍生物信息"
+    ],
+    "aliases_jp": [
+      "トークン情報"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Token information"
+    ],
+    "aliases": [
+      "Token information",
+      "トークン情報"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "TRAIT": {
+    "concept_id": "TRAIT",
+    "jp": "タイプ",
+    "canonical_cn": "类型",
+    "aliases_cn": [
+      "类型"
+    ],
+    "aliases_jp": [
+      "タイプ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Trait"
+    ],
+    "aliases": [
+      "Trait",
+      "タイプ"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "WITCH": {
+    "concept_id": "WITCH",
+    "jp": "ウィッチ",
+    "canonical_cn": "巫师",
+    "aliases_cn": [
+      "巫师"
+    ],
+    "aliases_jp": [
+      "ウィッチ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Witch"
+    ],
+    "aliases": [
+      "Witch",
+      "ウィッチ"
+    ],
+    "category": "card",
+    "rule_refs": []
+  },
+  "CEMETERY": {
+    "concept_id": "CEMETERY",
+    "jp": "墓場",
+    "canonical_cn": "墓场区域",
+    "aliases_cn": [
+      "墓场",
+      "墓场区域",
+      "墓地",
+      "坟场"
+    ],
+    "aliases_jp": [
+      "墓場"
+    ],
+    "aliases_player": [
+      "墓地",
+      "坟场"
+    ],
+    "aliases_en": [
+      "Cemetery",
+      "Graveyard"
+    ],
+    "aliases": [
+      "墓场",
+      "墓地",
+      "坟场",
+      "Cemetery",
+      "Graveyard",
+      "墓場"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "DECK": {
+    "concept_id": "DECK",
+    "jp": "デッキ",
+    "canonical_cn": "牌组区域",
+    "aliases_cn": [
+      "牌组",
+      "牌组区域"
+    ],
+    "aliases_jp": [
+      "デッキ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Deck"
+    ],
+    "aliases": [
+      "牌组",
+      "Deck",
+      "デッキ"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "DRIVE_AREA": {
+    "concept_id": "DRIVE_AREA",
+    "jp": "ドライブ領域",
+    "canonical_cn": "驱动区域",
+    "aliases_cn": [
+      "驱动区域",
+      "Drive 区域",
+      "驾驶领域",
+      "Drive区域"
+    ],
+    "aliases_jp": [
+      "ドライブ領域"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Drive area"
+    ],
+    "aliases": [
+      "Drive 区域",
+      "驾驶领域",
+      "Drive区域",
+      "Drive area",
+      "ドライブ領域"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "EQUIPMENT_AREA": {
+    "concept_id": "EQUIPMENT_AREA",
+    "jp": "イクイップメント領域",
+    "canonical_cn": "装备区域",
+    "aliases_cn": [
+      "装备区域"
+    ],
+    "aliases_jp": [
+      "イクイップメント領域"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Equipment area"
+    ],
+    "aliases": [
+      "Equipment area",
+      "イクイップメント領域"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "EVOLUTION_AREA": {
+    "concept_id": "EVOLUTION_AREA",
+    "jp": "進化領域",
+    "canonical_cn": "进化区域",
+    "aliases_cn": [
+      "进化区域",
+      "进化领域"
+    ],
+    "aliases_jp": [
+      "進化領域"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Evolution area"
+    ],
+    "aliases": [
+      "进化领域",
+      "Evolution area",
+      "進化領域"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "EVOLVE_DECK": {
+    "concept_id": "EVOLVE_DECK",
+    "jp": "エボルヴデッキ",
+    "canonical_cn": "进化牌组区域",
+    "aliases_cn": [
+      "进化牌组",
+      "进化牌组区域",
+      "进化牌组放置区"
+    ],
+    "aliases_jp": [
+      "エボルヴデッキ",
+      "エボルヴデッキ置き場"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Evolve deck",
+      "Evolve deck zone"
+    ],
+    "aliases": [
+      "进化牌组",
+      "进化牌组放置区",
+      "Evolve deck",
+      "Evolve deck zone",
+      "エボルヴデッキ",
+      "エボルヴデッキ置き場"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "EX_AREA": {
+    "concept_id": "EX_AREA",
+    "jp": "EXエリア",
+    "canonical_cn": "EX区域",
+    "aliases_cn": [
+      "EX区域",
+      "额外区"
+    ],
+    "aliases_jp": [
+      "EXエリア"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "EX area"
+    ],
+    "aliases": [
+      "额外区",
+      "EX area",
+      "EXエリア"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "FIELD": {
+    "concept_id": "FIELD",
+    "jp": "場",
+    "canonical_cn": "场上区域",
+    "aliases_cn": [
+      "场上",
+      "战场",
+      "场上区域",
+      "战场区域"
+    ],
+    "aliases_jp": [
+      "場",
+      "場（ば）"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Field"
+    ],
+    "aliases": [
+      "场上",
+      "战场",
+      "战场区域",
+      "Field",
+      "場",
+      "場（ば）"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "HAND": {
+    "concept_id": "HAND",
+    "jp": "手札",
+    "canonical_cn": "手牌区域",
+    "aliases_cn": [
+      "手牌",
+      "手牌区域"
+    ],
+    "aliases_jp": [
+      "手札"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Hand"
+    ],
+    "aliases": [
+      "手牌",
+      "Hand",
+      "手札"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "HIDDEN_ZONE": {
+    "concept_id": "HIDDEN_ZONE",
+    "jp": "非公開領域",
+    "canonical_cn": "非公开区域",
+    "aliases_cn": [
+      "非公开领域",
+      "非公开区域"
+    ],
+    "aliases_jp": [
+      "非公開領域"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Hidden zone"
+    ],
+    "aliases": [
+      "非公开领域",
+      "Hidden zone",
+      "非公開領域"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "MAIN_DECK": {
+    "concept_id": "MAIN_DECK",
+    "jp": "メインデッキ",
+    "canonical_cn": "主牌组区域",
+    "aliases_cn": [
+      "主牌组",
+      "主牌组区域"
+    ],
+    "aliases_jp": [
+      "メインデッキ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Main deck"
+    ],
+    "aliases": [
+      "主牌组",
+      "Main deck",
+      "メインデッキ"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "PUBLIC_ZONE": {
+    "concept_id": "PUBLIC_ZONE",
+    "jp": "公開領域",
+    "canonical_cn": "公开区域",
+    "aliases_cn": [
+      "公开领域",
+      "公开区域"
+    ],
+    "aliases_jp": [
+      "公開領域"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Public zone"
+    ],
+    "aliases": [
+      "公开领域",
+      "Public zone",
+      "公開領域"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "RACE_AREA": {
+    "concept_id": "RACE_AREA",
+    "jp": "出走領域",
+    "canonical_cn": "出走区域",
+    "aliases_cn": [
+      "出走区域",
+      "参赛领域"
+    ],
+    "aliases_jp": [
+      "出走領域"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Race area"
+    ],
+    "aliases": [
+      "参赛领域",
+      "Race area",
+      "出走領域"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "RESOLUTION_ZONE": {
+    "concept_id": "RESOLUTION_ZONE",
+    "jp": "解決領域",
+    "canonical_cn": "结算区域",
+    "aliases_cn": [
+      "结算区域",
+      "计算领域",
+      "结算领域"
+    ],
+    "aliases_jp": [
+      "解決領域"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Resolution zone"
+    ],
+    "aliases": [
+      "计算领域",
+      "结算领域",
+      "Resolution zone",
+      "解決領域"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "TERM_4E3B_6218_8005_533A": {
+    "concept_id": "TERM_4E3B_6218_8005_533A",
+    "jp": "リーダーエリア",
+    "canonical_cn": "主战者区域",
+    "aliases_cn": [
+      "主战者区域"
+    ],
+    "aliases_jp": [
+      "リーダーエリア"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "リーダーエリア"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "TERM_6D88_5931_9886_57DF": {
+    "concept_id": "TERM_6D88_5931_9886_57DF",
+    "jp": "消滅領域",
+    "canonical_cn": "消失区域",
+    "aliases_cn": [
+      "消失领域",
+      "消失区域"
+    ],
+    "aliases_jp": [
+      "消滅領域"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "消失领域",
+      "消滅領域"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "TERM_724C_7EC4_653E_7F6E": {
+    "concept_id": "TERM_724C_7EC4_653E_7F6E",
+    "jp": "デッキ置き場",
+    "canonical_cn": "牌组区域",
+    "aliases_cn": [
+      "牌组放置区",
+      "牌组区域"
+    ],
+    "aliases_jp": [
+      "デッキ置き場"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "牌组放置区",
+      "デッキ置き場"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "TRIGGER_AREA": {
+    "concept_id": "TRIGGER_AREA",
+    "jp": "トリガー領域",
+    "canonical_cn": "触发区域",
+    "aliases_cn": [
+      "触发区域"
+    ],
+    "aliases_jp": [
+      "トリガー領域"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Trigger area"
+    ],
+    "aliases": [
+      "Trigger area",
+      "トリガー領域"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "ZONE": {
+    "concept_id": "ZONE",
+    "jp": "領域",
+    "canonical_cn": "区域",
+    "aliases_cn": [
+      "领域",
+      "区域"
+    ],
+    "aliases_jp": [
+      "領域"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Zone"
+    ],
+    "aliases": [
+      "领域",
+      "Zone",
+      "領域"
+    ],
+    "category": "zone",
+    "rule_refs": []
+  },
+  "TERM_5DF2_8FDB_5316": {
+    "concept_id": "TERM_5DF2_8FDB_5316",
+    "jp": "進化した",
+    "canonical_cn": "已进化",
+    "aliases_cn": [
+      "已进化"
+    ],
+    "aliases_jp": [
+      "進化した"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "進化した"
+    ],
+    "category": "state",
+    "rule_refs": []
+  },
+  "TERM_5E03_5C40_72B6_6001": {
+    "concept_id": "TERM_5E03_5C40_72B6_6001",
+    "jp": "配置状態",
+    "canonical_cn": "布局状态",
+    "aliases_cn": [
+      "布局状态"
+    ],
+    "aliases_jp": [
+      "配置状態"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "配置状態"
+    ],
+    "category": "state",
+    "rule_refs": []
+  },
+  "TERM_6A2A_7F6E_72B6_6001": {
+    "concept_id": "TERM_6A2A_7F6E_72B6_6001",
+    "jp": "アクト状態",
+    "canonical_cn": "横置状态",
+    "aliases_cn": [
+      "横置状态"
+    ],
+    "aliases_jp": [
+      "アクト状態"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "アクト状態"
+    ],
+    "category": "state",
+    "rule_refs": []
+  },
+  "TERM_6B63_9762_671D_4E0A": {
+    "concept_id": "TERM_6B63_9762_671D_4E0A",
+    "jp": "表向き",
+    "canonical_cn": "正面朝上",
+    "aliases_cn": [
+      "正面朝上"
+    ],
+    "aliases_jp": [
+      "表向き"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "表向き"
+    ],
+    "category": "state",
+    "rule_refs": []
+  },
+  "TERM_7AD6_7F6E_72B6_6001": {
+    "concept_id": "TERM_7AD6_7F6E_72B6_6001",
+    "jp": "スタンド状態",
+    "canonical_cn": "竖置状态",
+    "aliases_cn": [
+      "竖置状态"
+    ],
+    "aliases_jp": [
+      "スタンド状態"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "スタンド状態"
+    ],
+    "category": "state",
+    "rule_refs": []
+  },
+  "TERM_80CC_9762_671D_4E0A": {
+    "concept_id": "TERM_80CC_9762_671D_4E0A",
+    "jp": "裏向き",
+    "canonical_cn": "背面朝上",
+    "aliases_cn": [
+      "背面朝上"
+    ],
+    "aliases_jp": [
+      "裏向き"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "裏向き"
+    ],
+    "category": "state",
+    "rule_refs": []
+  },
+  "TERM_4E3B_8981_9636_6BB5": {
+    "concept_id": "TERM_4E3B_8981_9636_6BB5",
+    "jp": "メインフェイズ",
+    "canonical_cn": "主要阶段",
+    "aliases_cn": [
+      "主要阶段"
+    ],
+    "aliases_jp": [
+      "メインフェイズ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "メインフェイズ"
+    ],
+    "category": "phase",
+    "rule_refs": []
+  },
+  "TERM_5F00_59CB_9636_6BB5": {
+    "concept_id": "TERM_5F00_59CB_9636_6BB5",
+    "jp": "スタートフェイズ",
+    "canonical_cn": "开始阶段",
+    "aliases_cn": [
+      "开始阶段"
+    ],
+    "aliases_jp": [
+      "スタートフェイズ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "スタートフェイズ"
+    ],
+    "category": "phase",
+    "rule_refs": []
+  },
+  "TERM_7ED3_675F_9636_6BB5": {
+    "concept_id": "TERM_7ED3_675F_9636_6BB5",
+    "jp": "エンドフェイズ",
+    "canonical_cn": "结束阶段",
+    "aliases_cn": [
+      "结束阶段"
+    ],
+    "aliases_jp": [
+      "エンドフェイズ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "エンドフェイズ"
+    ],
+    "category": "phase",
+    "rule_refs": []
+  },
+  "ACT": {
+    "concept_id": "ACT",
+    "jp": "アクトする",
+    "canonical_cn": "横置",
+    "aliases_cn": [
+      "横置"
+    ],
+    "aliases_jp": [
+      "アクトする"
+    ],
+    "aliases_player": [
+      "横放"
+    ],
+    "aliases_en": [
+      "Act"
+    ],
+    "aliases": [
+      "横放",
+      "Act",
+      "アクトする"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "ASSOCIATE": {
+    "concept_id": "ASSOCIATE",
+    "jp": "関連付ける",
+    "canonical_cn": "关联",
+    "aliases_cn": [
+      "关联"
+    ],
+    "aliases_jp": [
+      "関連付ける"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Associate",
+      "Attach"
+    ],
+    "aliases": [
+      "Associate",
+      "Attach",
+      "関連付ける"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "BANISH": {
+    "concept_id": "BANISH",
+    "jp": "消滅する",
+    "canonical_cn": "消失",
+    "aliases_cn": [
+      "消失"
+    ],
+    "aliases_jp": [
+      "消滅する"
+    ],
+    "aliases_player": [
+      "除外",
+      "放逐"
+    ],
+    "aliases_en": [
+      "Banish"
+    ],
+    "aliases": [
+      "除外",
+      "放逐",
+      "Banish",
+      "消滅する"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "CHOOSE": {
+    "concept_id": "CHOOSE",
+    "jp": "選ぶ",
+    "canonical_cn": "选择",
+    "aliases_cn": [
+      "选择"
+    ],
+    "aliases_jp": [
+      "選ぶ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Choose",
+      "Select"
+    ],
+    "aliases": [
+      "Choose",
+      "Select",
+      "選ぶ"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "DESTROY": {
+    "concept_id": "DESTROY",
+    "jp": "破壊する",
+    "canonical_cn": "破坏",
+    "aliases_cn": [
+      "破坏"
+    ],
+    "aliases_jp": [
+      "破壊する"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Destroy"
+    ],
+    "aliases": [
+      "Destroy",
+      "破壊する"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "DISCARD": {
+    "concept_id": "DISCARD",
+    "jp": "捨てる",
+    "canonical_cn": "舍弃",
+    "aliases_cn": [
+      "舍弃",
+      "丢弃"
+    ],
+    "aliases_jp": [
+      "捨てる"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Discard"
+    ],
+    "aliases": [
+      "丢弃",
+      "Discard",
+      "捨てる"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "DIVIDE": {
+    "concept_id": "DIVIDE",
+    "jp": "割り振る",
+    "canonical_cn": "分配",
+    "aliases_cn": [
+      "分配"
+    ],
+    "aliases_jp": [
+      "割り振る"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Divide",
+      "Assign"
+    ],
+    "aliases": [
+      "Divide",
+      "Assign",
+      "割り振る"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "DRAW_CARD": {
+    "concept_id": "DRAW_CARD",
+    "jp": "引く",
+    "canonical_cn": "抽牌",
+    "aliases_cn": [
+      "抽牌",
+      "抽取"
+    ],
+    "aliases_jp": [
+      "引く"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Draw"
+    ],
+    "aliases": [
+      "抽取",
+      "Draw",
+      "引く"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "EQUIP_ACTION": {
+    "concept_id": "EQUIP_ACTION",
+    "jp": "装備",
+    "canonical_cn": "装备",
+    "aliases_cn": [
+      "装备"
+    ],
+    "aliases_jp": [
+      "装備"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Equip"
+    ],
+    "aliases": [
+      "Equip",
+      "装備"
+    ],
+    "category": "action",
+    "rule_refs": [
+      "14.5.2"
+    ]
+  },
+  "PLAY": {
+    "concept_id": "PLAY",
+    "jp": "プレイする",
+    "canonical_cn": "使用",
+    "aliases_cn": [
+      "使用",
+      "打出"
+    ],
+    "aliases_jp": [
+      "プレイする",
+      "プレイ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Play"
+    ],
+    "aliases": [
+      "打出",
+      "Play",
+      "プレイする",
+      "プレイ"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "PUT": {
+    "concept_id": "PUT",
+    "jp": "置く",
+    "canonical_cn": "放置",
+    "aliases_cn": [
+      "放置",
+      "置于"
+    ],
+    "aliases_jp": [
+      "置く"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Put"
+    ],
+    "aliases": [
+      "置于",
+      "Put",
+      "置く"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "PUT_INTO_CEMETERY": {
+    "concept_id": "PUT_INTO_CEMETERY",
+    "jp": "墓場に置く",
+    "canonical_cn": "置于墓场",
+    "aliases_cn": [
+      "置于墓场"
+    ],
+    "aliases_jp": [
+      "墓場に置く"
+    ],
+    "aliases_player": [
+      "送墓",
+      "进墓"
+    ],
+    "aliases_en": [
+      "Put into cemetery"
+    ],
+    "aliases": [
+      "送墓",
+      "进墓",
+      "Put into cemetery",
+      "墓場に置く"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "PUT_ONTO_THE_FIELD": {
+    "concept_id": "PUT_ONTO_THE_FIELD",
+    "jp": "場に出す",
+    "canonical_cn": "召唤到场上",
+    "aliases_cn": [
+      "召唤到场上",
+      "置于场上"
+    ],
+    "aliases_jp": [
+      "場に出す"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Put onto the field"
+    ],
+    "aliases": [
+      "置于场上",
+      "Put onto the field",
+      "場に出す"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "REPLACE": {
+    "concept_id": "REPLACE",
+    "jp": "置換する",
+    "canonical_cn": "替代",
+    "aliases_cn": [
+      "替代",
+      "置换"
+    ],
+    "aliases_jp": [
+      "置換する"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Replace"
+    ],
+    "aliases": [
+      "置换",
+      "Replace",
+      "置換する"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "RESOLVE": {
+    "concept_id": "RESOLVE",
+    "jp": "解決",
+    "canonical_cn": "结算",
+    "aliases_cn": [
+      "结算"
+    ],
+    "aliases_jp": [
+      "解決する",
+      "解決"
+    ],
+    "aliases_player": [
+      "计算"
+    ],
+    "aliases_en": [
+      "Resolve"
+    ],
+    "aliases": [
+      "计算",
+      "Resolve",
+      "解決する",
+      "解決"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "REVEAL": {
+    "concept_id": "REVEAL",
+    "jp": "公開する",
+    "canonical_cn": "公开",
+    "aliases_cn": [
+      "公开",
+      "展示"
+    ],
+    "aliases_jp": [
+      "公開する"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Reveal"
+    ],
+    "aliases": [
+      "展示",
+      "Reveal",
+      "公開する"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "SEARCH": {
+    "concept_id": "SEARCH",
+    "jp": "探す",
+    "canonical_cn": "搜寻",
+    "aliases_cn": [
+      "搜寻",
+      "寻找"
+    ],
+    "aliases_jp": [
+      "探す"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Search"
+    ],
+    "aliases": [
+      "寻找",
+      "Search",
+      "探す"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "SHUFFLE": {
+    "concept_id": "SHUFFLE",
+    "jp": "シャッフルする",
+    "canonical_cn": "洗切",
+    "aliases_cn": [
+      "洗切",
+      "洗牌"
+    ],
+    "aliases_jp": [
+      "シャッフルする"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Shuffle"
+    ],
+    "aliases": [
+      "洗牌",
+      "Shuffle",
+      "シャッフルする"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "STAND": {
+    "concept_id": "STAND",
+    "jp": "スタンドする",
+    "canonical_cn": "竖置",
+    "aliases_cn": [
+      "竖置"
+    ],
+    "aliases_jp": [
+      "スタンドする"
+    ],
+    "aliases_player": [
+      "重置"
+    ],
+    "aliases_en": [
+      "Stand"
+    ],
+    "aliases": [
+      "重置",
+      "Stand",
+      "スタンドする"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_4EA4_6218": {
+    "concept_id": "TERM_4EA4_6218",
+    "jp": "交戦",
+    "canonical_cn": "交战",
+    "aliases_cn": [
+      "交战"
+    ],
+    "aliases_jp": [
+      "交戦"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "交戦"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_4EA4_6218_4F24_5BB3": {
+    "concept_id": "TERM_4EA4_6218_4F24_5BB3",
+    "jp": "交戦ダメージ",
+    "canonical_cn": "交战伤害",
+    "aliases_cn": [
+      "交战伤害"
+    ],
+    "aliases_jp": [
+      "交戦ダメージ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "交戦ダメージ"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_4EA4_6362": {
+    "concept_id": "TERM_4EA4_6362",
+    "jp": "入れ替える",
+    "canonical_cn": "交换",
+    "aliases_cn": [
+      "交换"
+    ],
+    "aliases_jp": [
+      "入れ替える"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "入れ替える"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_4F24_5BB3": {
+    "concept_id": "TERM_4F24_5BB3",
+    "jp": "ダメージ",
+    "canonical_cn": "伤害",
+    "aliases_cn": [
+      "伤害"
+    ],
+    "aliases_jp": [
+      "ダメージ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "ダメージ"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_534A_5206": {
+    "concept_id": "TERM_534A_5206",
+    "jp": "半分",
+    "canonical_cn": "半分",
+    "aliases_cn": [
+      "半分"
+    ],
+    "aliases_jp": [
+      "半分"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_539F_672C_7684": {
+    "concept_id": "TERM_539F_672C_7684",
+    "jp": "元の",
+    "canonical_cn": "原本的",
+    "aliases_cn": [
+      "原本的"
+    ],
+    "aliases_jp": [
+      "元の"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "元の"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_53D8_4E3A_FF08_79CD": {
+    "concept_id": "TERM_53D8_4E3A_FF08_79CD",
+    "jp": "（種類）にする",
+    "canonical_cn": "变为",
+    "aliases_cn": [
+      "变为"
+    ],
+    "aliases_jp": [
+      "（種類）にする"
+    ],
+    "aliases_player": [
+      "变为"
+    ],
+    "aliases_en": [],
+    "aliases": [
+      "（種類）にする"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_53D8_8EAB": {
+    "concept_id": "TERM_53D8_8EAB",
+    "jp": "変身する",
+    "canonical_cn": "变身",
+    "aliases_cn": [
+      "变身"
+    ],
+    "aliases_jp": [
+      "変身する"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "変身する"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_56DE_590D_FF08_80FD": {
+    "concept_id": "TERM_56DE_590D_FF08_80FD",
+    "jp": "回復する",
+    "canonical_cn": "回复",
+    "aliases_cn": [
+      "回复"
+    ],
+    "aliases_jp": [
+      "回復する"
+    ],
+    "aliases_player": [
+      "回复"
+    ],
+    "aliases_en": [],
+    "aliases": [
+      "回復する"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_593A_53D6": {
+    "concept_id": "TERM_593A_53D6",
+    "jp": "奪う",
+    "canonical_cn": "夺取",
+    "aliases_cn": [
+      "夺取"
+    ],
+    "aliases_jp": [
+      "奪う"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "奪う"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_5BF9_6218_80DC_5229": {
+    "concept_id": "TERM_5BF9_6218_80DC_5229",
+    "jp": "バトルに勝利する",
+    "canonical_cn": "对战胜利",
+    "aliases_cn": [
+      "对战胜利"
+    ],
+    "aliases_jp": [
+      "バトルに勝利する"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "バトルに勝利する"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_6289_62E9": {
+    "concept_id": "TERM_6289_62E9",
+    "jp": "チョイスする",
+    "canonical_cn": "抉择",
+    "aliases_cn": [
+      "抉择"
+    ],
+    "aliases_jp": [
+      "チョイスする"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "チョイスする"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_63B7_9AB0_5B50": {
+    "concept_id": "TERM_63B7_9AB0_5B50",
+    "jp": "サイコロをふる",
+    "canonical_cn": "掷骰子",
+    "aliases_cn": [
+      "掷骰子"
+    ],
+    "aliases_jp": [
+      "サイコロをふる"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "サイコロをふる"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_64CD_7EB5": {
+    "concept_id": "TERM_64CD_7EB5",
+    "jp": "操縦する",
+    "canonical_cn": "操纵",
+    "aliases_cn": [
+      "操纵"
+    ],
+    "aliases_jp": [
+      "操縦する"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "操縦する"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_653B_51FB_4F24_5BB3": {
+    "concept_id": "TERM_653B_51FB_4F24_5BB3",
+    "jp": "攻撃ダメージ",
+    "canonical_cn": "攻击伤害",
+    "aliases_cn": [
+      "攻击伤害"
+    ],
+    "aliases_jp": [
+      "攻撃ダメージ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "攻撃ダメージ"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_653B_51FB_76EE_6807": {
+    "concept_id": "TERM_653B_51FB_76EE_6807",
+    "jp": "攻撃目標",
+    "canonical_cn": "攻击目标",
+    "aliases_cn": [
+      "攻击目标"
+    ],
+    "aliases_jp": [
+      "攻撃目標"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "攻撃目標"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_653B_51FB_968F_4ECE": {
+    "concept_id": "TERM_653B_51FB_968F_4ECE",
+    "jp": "攻撃フォロワー",
+    "canonical_cn": "攻击随从",
+    "aliases_cn": [
+      "攻击随从"
+    ],
+    "aliases_jp": [
+      "攻撃フォロワー"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "攻撃フォロワー"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_653E_5165": {
+    "concept_id": "TERM_653E_5165",
+    "jp": "出す",
+    "canonical_cn": "放入",
+    "aliases_cn": [
+      "放入",
+      "召唤"
+    ],
+    "aliases_jp": [
+      "出す"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "召唤",
+      "出す"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_6BCF_FF08_6570_503C": {
+    "concept_id": "TERM_6BCF_FF08_6570_503C",
+    "jp": "ターンごとに（数値）回",
+    "canonical_cn": "每次",
+    "aliases_cn": [
+      "每次"
+    ],
+    "aliases_jp": [
+      "ターンごとに（数値）回"
+    ],
+    "aliases_player": [
+      "每次"
+    ],
+    "aliases_en": [],
+    "aliases": [
+      "ターンごとに（数値）回"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_6D88_53BB": {
+    "concept_id": "TERM_6D88_53BB",
+    "jp": "消去する",
+    "canonical_cn": "消去",
+    "aliases_cn": [
+      "消去"
+    ],
+    "aliases_jp": [
+      "消去する"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "消去する"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_6E21_8BA9": {
+    "concept_id": "TERM_6E21_8BA9",
+    "jp": "渡す",
+    "canonical_cn": "渡让",
+    "aliases_cn": [
+      "渡让"
+    ],
+    "aliases_jp": [
+      "渡す"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "渡す"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_7279_5B9A_8BB0_8FF0": {
+    "concept_id": "TERM_7279_5B9A_8BB0_8FF0",
+    "jp": "特定表記",
+    "canonical_cn": "特定记述",
+    "aliases_cn": [
+      "特定记述"
+    ],
+    "aliases_jp": [
+      "特定表記"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "特定表記"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_751F_6210": {
+    "concept_id": "TERM_751F_6210",
+    "jp": "作成",
+    "canonical_cn": "生成",
+    "aliases_cn": [
+      "生成"
+    ],
+    "aliases_jp": [
+      "作成"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "作成"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_7BB1_5C01_72B6_6001": {
+    "concept_id": "TERM_7BB1_5C01_72B6_6001",
+    "jp": "【箱詰め】状態",
+    "canonical_cn": "箱封状态",
+    "aliases_cn": [
+      "箱封状态"
+    ],
+    "aliases_jp": [
+      "【箱詰め】状態"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "【箱詰め】状態"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_80FD_529B_4F24_5BB3": {
+    "concept_id": "TERM_80FD_529B_4F24_5BB3",
+    "jp": "能力ダメージ",
+    "canonical_cn": "能力伤害",
+    "aliases_cn": [
+      "能力伤害"
+    ],
+    "aliases_jp": [
+      "能力ダメージ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "能力ダメージ"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_8DF3_8FC7_56DE_5408": {
+    "concept_id": "TERM_8DF3_8FC7_56DE_5408",
+    "jp": "ターンをスキップする",
+    "canonical_cn": "跳过回合",
+    "aliases_cn": [
+      "跳过回合"
+    ],
+    "aliases_jp": [
+      "ターンをスキップする"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "ターンをスキップする"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_8FDB_884C_989D_5916": {
+    "concept_id": "TERM_8FDB_884C_989D_5916",
+    "jp": "追加ターンを行う",
+    "canonical_cn": "进行额外回合",
+    "aliases_cn": [
+      "进行额外回合"
+    ],
+    "aliases_jp": [
+      "追加ターンを行う"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "追加ターンを行う"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_968F_673A": {
+    "concept_id": "TERM_968F_673A",
+    "jp": "ランダム",
+    "canonical_cn": "随机",
+    "aliases_cn": [
+      "随机"
+    ],
+    "aliases_jp": [
+      "ランダム"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "ランダム"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "TERM_FF5E_306B_3064_304D": {
+    "concept_id": "TERM_FF5E_306B_3064_304D",
+    "jp": "～につき",
+    "canonical_cn": "～につき",
+    "aliases_cn": [
+      "～につき",
+      "每X个"
+    ],
+    "aliases_jp": [
+      "～につき"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "每X个"
+    ],
+    "category": "action",
+    "rule_refs": []
+  },
+  "ABILITY": {
+    "concept_id": "ABILITY",
+    "jp": "能力",
+    "canonical_cn": "能力",
+    "aliases_cn": [
+      "能力"
+    ],
+    "aliases_jp": [
+      "能力"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Ability"
+    ],
+    "aliases": [
+      "Ability"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "ACTIVATED_ABILITY": {
+    "concept_id": "ACTIVATED_ABILITY",
+    "jp": "起動能力",
+    "canonical_cn": "起动能力",
+    "aliases_cn": [
+      "起动能力",
+      "启动能力"
+    ],
+    "aliases_jp": [
+      "起動能力"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Activated ability"
+    ],
+    "aliases": [
+      "启动能力",
+      "Activated ability",
+      "起動能力"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "CHECK_TIMING": {
+    "concept_id": "CHECK_TIMING",
+    "jp": "チェックタイミング",
+    "canonical_cn": "检查时点",
+    "aliases_cn": [
+      "检查时点"
+    ],
+    "aliases_jp": [
+      "チェックタイミング"
+    ],
+    "aliases_player": [
+      "检查时间点"
+    ],
+    "aliases_en": [
+      "Check timing"
+    ],
+    "aliases": [
+      "检查时间点",
+      "Check timing",
+      "チェックタイミング"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "CONTINUOUS_ABILITY": {
+    "concept_id": "CONTINUOUS_ABILITY",
+    "jp": "永続能力",
+    "canonical_cn": "永续能力",
+    "aliases_cn": [
+      "永续能力"
+    ],
+    "aliases_jp": [
+      "永続能力"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Continuous ability"
+    ],
+    "aliases": [
+      "Continuous ability",
+      "永続能力"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "CONTINUOUS_EFFECT": {
+    "concept_id": "CONTINUOUS_EFFECT",
+    "jp": "継続効果",
+    "canonical_cn": "持续效果",
+    "aliases_cn": [
+      "持续效果"
+    ],
+    "aliases_jp": [
+      "継続効果"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Continuous effect"
+    ],
+    "aliases": [
+      "Continuous effect",
+      "継続効果"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "DELAYED_TRIGGER": {
+    "concept_id": "DELAYED_TRIGGER",
+    "jp": "時限誘発",
+    "canonical_cn": "时限诱发",
+    "aliases_cn": [
+      "时限诱发"
+    ],
+    "aliases_jp": [
+      "時限誘発"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Delayed trigger"
+    ],
+    "aliases": [
+      "Delayed trigger",
+      "時限誘発"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "EFFECT": {
+    "concept_id": "EFFECT",
+    "jp": "効果",
+    "canonical_cn": "效果",
+    "aliases_cn": [
+      "效果"
+    ],
+    "aliases_jp": [
+      "効果"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Effect"
+    ],
+    "aliases": [
+      "Effect",
+      "効果"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "ONE_SHOT_EFFECT": {
+    "concept_id": "ONE_SHOT_EFFECT",
+    "jp": "単発効果",
+    "canonical_cn": "单发效果",
+    "aliases_cn": [
+      "单发效果",
+      "单次效果"
+    ],
+    "aliases_jp": [
+      "単発効果"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "One-shot effect"
+    ],
+    "aliases": [
+      "单次效果",
+      "One-shot effect",
+      "単発効果"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "PENDING_STATE": {
+    "concept_id": "PENDING_STATE",
+    "jp": "待機状態",
+    "canonical_cn": "待机状态",
+    "aliases_cn": [
+      "待机状态"
+    ],
+    "aliases_jp": [
+      "待機状態"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Pending state"
+    ],
+    "aliases": [
+      "Pending state",
+      "待機状態"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "REPLACEMENT_EFFECT": {
+    "concept_id": "REPLACEMENT_EFFECT",
+    "jp": "置換効果",
+    "canonical_cn": "替代效果",
+    "aliases_cn": [
+      "替代效果",
+      "置换效果",
+      "替换效果"
+    ],
+    "aliases_jp": [
+      "置換効果"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Replacement effect"
+    ],
+    "aliases": [
+      "置换效果",
+      "替换效果",
+      "Replacement effect",
+      "置換効果"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "RULE_PROCESS": {
+    "concept_id": "RULE_PROCESS",
+    "jp": "ルール処理",
+    "canonical_cn": "规则处理",
+    "aliases_cn": [
+      "规则处理"
+    ],
+    "aliases_jp": [
+      "ルール処理"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Rule process"
+    ],
+    "aliases": [
+      "Rule process",
+      "ルール処理"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "SOURCE": {
+    "concept_id": "SOURCE",
+    "jp": "発生源",
+    "canonical_cn": "发生源",
+    "aliases_cn": [
+      "发生源"
+    ],
+    "aliases_jp": [
+      "発生源"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Source"
+    ],
+    "aliases": [
+      "Source",
+      "発生源"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "STATE_TRIGGER": {
+    "concept_id": "STATE_TRIGGER",
+    "jp": "状態誘発",
+    "canonical_cn": "状态诱发",
+    "aliases_cn": [
+      "状态诱发"
+    ],
+    "aliases_jp": [
+      "状態誘発"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "State trigger"
+    ],
+    "aliases": [
+      "State trigger",
+      "状態誘発"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_6218_573A_8D85_51FA": {
+    "concept_id": "TERM_6218_573A_8D85_51FA",
+    "jp": "場の超過処理",
+    "canonical_cn": "战场超出上限的处理",
+    "aliases_cn": [
+      "战场超出上限的处理"
+    ],
+    "aliases_jp": [
+      "場の超過処理"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "場の超過処理"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_652F_4ED8_8D39_7528": {
+    "concept_id": "TERM_652F_4ED8_8D39_7528",
+    "jp": "コストを支払う",
+    "canonical_cn": "支付费用",
+    "aliases_cn": [
+      "支付费用"
+    ],
+    "aliases_jp": [
+      "コストを支払う"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "コストを支払う"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_65E0_6548_FF08_7684": {
+    "concept_id": "TERM_65E0_6548_FF08_7684",
+    "jp": "無効（な）",
+    "canonical_cn": "无效",
+    "aliases_cn": [
+      "无效"
+    ],
+    "aliases_jp": [
+      "無効（な）"
+    ],
+    "aliases_player": [
+      "无效"
+    ],
+    "aliases_en": [],
+    "aliases": [
+      "無効（な）"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_6700_7EC8_4FE1_606F": {
+    "concept_id": "TERM_6700_7EC8_4FE1_606F",
+    "jp": "最終情報",
+    "canonical_cn": "最终信息",
+    "aliases_cn": [
+      "最终信息"
+    ],
+    "aliases_jp": [
+      "最終情報"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "最終情報"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_6709_6548_FF08_7684": {
+    "concept_id": "TERM_6709_6548_FF08_7684",
+    "jp": "有効（な）",
+    "canonical_cn": "有效",
+    "aliases_cn": [
+      "有效"
+    ],
+    "aliases_jp": [
+      "有効（な）"
+    ],
+    "aliases_player": [
+      "有效"
+    ],
+    "aliases_en": [],
+    "aliases": [
+      "有効（な）"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_6CD5_672F_80FD_529B": {
+    "concept_id": "TERM_6CD5_672F_80FD_529B",
+    "jp": "スペル能力",
+    "canonical_cn": "法术能力",
+    "aliases_cn": [
+      "法术能力"
+    ],
+    "aliases_jp": [
+      "スペル能力"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "スペル能力"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_76EE_6807": {
+    "concept_id": "TERM_76EE_6807",
+    "jp": "目標",
+    "canonical_cn": "目标",
+    "aliases_cn": [
+      "目标"
+    ],
+    "aliases_jp": [
+      "目標"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "目標"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_84C4_79EF_5904_7406": {
+    "concept_id": "TERM_84C4_79EF_5904_7406",
+    "jp": "スタック処理",
+    "canonical_cn": "蓄积处理",
+    "aliases_cn": [
+      "蓄积处理"
+    ],
+    "aliases_jp": [
+      "スタック処理"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "スタック処理"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_88AB_8BF1_53D1": {
+    "concept_id": "TERM_88AB_8BF1_53D1",
+    "jp": "誘発している",
+    "canonical_cn": "被诱发",
+    "aliases_cn": [
+      "被诱发"
+    ],
+    "aliases_jp": [
+      "誘発している"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "誘発している"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_8D25_5317_5904_7406": {
+    "concept_id": "TERM_8D25_5317_5904_7406",
+    "jp": "敗北処理",
+    "canonical_cn": "败北处理",
+    "aliases_cn": [
+      "败北处理"
+    ],
+    "aliases_jp": [
+      "敗北処理"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "敗北処理"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_8FDD_89C4_8FDB_5316": {
+    "concept_id": "TERM_8FDD_89C4_8FDB_5316",
+    "jp": "不正進化処理",
+    "canonical_cn": "违规进化处理",
+    "aliases_cn": [
+      "违规进化处理"
+    ],
+    "aliases_jp": [
+      "不正進化処理"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "不正進化処理"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TERM_968F_4ECE_7834_574F": {
+    "concept_id": "TERM_968F_4ECE_7834_574F",
+    "jp": "フォロワー破壊処理",
+    "canonical_cn": "随从破坏处理",
+    "aliases_cn": [
+      "随从破坏处理"
+    ],
+    "aliases_jp": [
+      "フォロワー破壊処理"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "フォロワー破壊処理"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TRIGGERED_ABILITY": {
+    "concept_id": "TRIGGERED_ABILITY",
+    "jp": "自動能力",
+    "canonical_cn": "自动能力",
+    "aliases_cn": [
+      "自动能力"
+    ],
+    "aliases_jp": [
+      "自動能力"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Triggered ability"
+    ],
+    "aliases": [
+      "Triggered ability",
+      "自動能力"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "TRIGGER_CONDITION": {
+    "concept_id": "TRIGGER_CONDITION",
+    "jp": "誘発条件",
+    "canonical_cn": "诱发条件",
+    "aliases_cn": [
+      "诱发条件"
+    ],
+    "aliases_jp": [
+      "誘発条件"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Trigger condition"
+    ],
+    "aliases": [
+      "Trigger condition",
+      "誘発条件"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "ZONE_CHANGE_TRIGGER": {
+    "concept_id": "ZONE_CHANGE_TRIGGER",
+    "jp": "領域移動誘発",
+    "canonical_cn": "领域移动诱发",
+    "aliases_cn": [
+      "领域移动诱发"
+    ],
+    "aliases_jp": [
+      "領域移動誘発"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Zone-change trigger"
+    ],
+    "aliases": [
+      "Zone-change trigger",
+      "領域移動誘発"
+    ],
+    "category": "effect",
+    "rule_refs": []
+  },
+  "ADVANCE_ACTIVATE": {
+    "concept_id": "ADVANCE_ACTIVATE",
+    "jp": "アドバンス起動",
+    "canonical_cn": "高等启动",
+    "aliases_cn": [
+      "Advance 起动",
+      "进阶起动",
+      "超克启动",
+      "高等启动"
+    ],
+    "aliases_jp": [
+      "アドバンス起動"
+    ],
+    "aliases_player": [
+      "Advance"
+    ],
+    "aliases_en": [
+      "Advance Activate"
+    ],
+    "aliases": [
+      "Advance 起动",
+      "进阶起动",
+      "超克启动",
+      "Advance",
+      "Advance Activate",
+      "アドバンス起動"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.16"
+    ]
+  },
+  "AURA": {
+    "concept_id": "AURA",
+    "jp": "オーラ",
+    "canonical_cn": "光环",
+    "aliases_cn": [
+      "光环",
+      "灵气"
+    ],
+    "aliases_jp": [
+      "オーラ"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Aura"
+    ],
+    "aliases": [
+      "灵气",
+      "Aura",
+      "オーラ"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.15"
+    ]
+  },
+  "BANE": {
+    "concept_id": "BANE",
+    "jp": "必殺",
+    "canonical_cn": "必杀",
+    "aliases_cn": [
+      "必杀",
+      "毁灭"
+    ],
+    "aliases_jp": [
+      "必殺"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Bane"
+    ],
+    "aliases": [
+      "毁灭",
+      "Bane",
+      "必殺"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.14"
+    ]
+  },
+  "DRAIN": {
+    "concept_id": "DRAIN",
+    "jp": "ドレイン",
+    "canonical_cn": "吸血",
+    "aliases_cn": [
+      "吸血",
+      "吸取",
+      "虹吸"
+    ],
+    "aliases_jp": [
+      "ドレイン"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Drain"
+    ],
+    "aliases": [
+      "吸取",
+      "虹吸",
+      "Drain",
+      "ドレイン"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.13"
+    ]
+  },
+  "EVOLVE_ABILITY": {
+    "concept_id": "EVOLVE_ABILITY",
+    "jp": "進化",
+    "canonical_cn": "进化",
+    "aliases_cn": [
+      "进化"
+    ],
+    "aliases_jp": [
+      "進化"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Evolve"
+    ],
+    "aliases": [
+      "Evolve",
+      "進化"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.2"
+    ]
+  },
+  "FANFARE": {
+    "concept_id": "FANFARE",
+    "jp": "ファンファーレ",
+    "canonical_cn": "入场曲",
+    "aliases_cn": [
+      "入场曲"
+    ],
+    "aliases_jp": [
+      "ファンファーレ"
+    ],
+    "aliases_player": [
+      "登场曲",
+      "入场效果",
+      "登场效果"
+    ],
+    "aliases_en": [
+      "Fanfare"
+    ],
+    "aliases": [
+      "登场曲",
+      "入场效果",
+      "登场效果",
+      "Fanfare",
+      "ファンファーレ"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.4"
+    ]
+  },
+  "FUSION": {
+    "concept_id": "FUSION",
+    "jp": "融合",
+    "canonical_cn": "融合",
+    "aliases_cn": [
+      "融合"
+    ],
+    "aliases_jp": [
+      "融合"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Fusion"
+    ],
+    "aliases": [
+      "Fusion"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.18"
+    ]
+  },
+  "INTIMIDATE": {
+    "concept_id": "INTIMIDATE",
+    "jp": "威圧",
+    "canonical_cn": "威压",
+    "aliases_cn": [
+      "威压"
+    ],
+    "aliases_jp": [
+      "威圧"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Intimidate"
+    ],
+    "aliases": [
+      "Intimidate",
+      "威圧"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.12"
+    ]
+  },
+  "KEYWORD": {
+    "concept_id": "KEYWORD",
+    "jp": "キーワード",
+    "canonical_cn": "关键词",
+    "aliases_cn": [
+      "关键词"
+    ],
+    "aliases_jp": [
+      "キーワード"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Keyword"
+    ],
+    "aliases": [
+      "Keyword",
+      "キーワード"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.1"
+    ]
+  },
+  "KEYWORD_ABILITY": {
+    "concept_id": "KEYWORD_ABILITY",
+    "jp": "キーワード能力",
+    "canonical_cn": "关键词能力",
+    "aliases_cn": [
+      "关键词能力"
+    ],
+    "aliases_jp": [
+      "キーワード能力"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Keyword ability"
+    ],
+    "aliases": [
+      "Keyword ability",
+      "キーワード能力"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.1"
+    ]
+  },
+  "LAST_WORDS": {
+    "concept_id": "LAST_WORDS",
+    "jp": "ラストワード",
+    "canonical_cn": "谢幕曲",
+    "aliases_cn": [
+      "谢幕曲",
+      "遗言"
+    ],
+    "aliases_jp": [
+      "ラストワード"
+    ],
+    "aliases_player": [
+      "遗言"
+    ],
+    "aliases_en": [
+      "Last Words"
+    ],
+    "aliases": [
+      "遗言",
+      "Last Words",
+      "ラストワード"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.5"
+    ]
+  },
+  "ON_ATTACK": {
+    "concept_id": "ON_ATTACK",
+    "jp": "攻撃時",
+    "canonical_cn": "攻击时",
+    "aliases_cn": [
+      "攻击时"
+    ],
+    "aliases_jp": [
+      "攻撃時"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "On Attack"
+    ],
+    "aliases": [
+      "On Attack",
+      "攻撃時"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.7"
+    ]
+  },
+  "ON_EVOLVE": {
+    "concept_id": "ON_EVOLVE",
+    "jp": "進化時",
+    "canonical_cn": "进化时",
+    "aliases_cn": [
+      "进化时"
+    ],
+    "aliases_jp": [
+      "進化時"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "On Evolve"
+    ],
+    "aliases": [
+      "On Evolve",
+      "進化時"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.6"
+    ]
+  },
+  "ON_SUPER_EVOLVE": {
+    "concept_id": "ON_SUPER_EVOLVE",
+    "jp": "超進化時",
+    "canonical_cn": "超进化时",
+    "aliases_cn": [
+      "超进化时"
+    ],
+    "aliases_jp": [
+      "超進化時"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "On Super Evolve"
+    ],
+    "aliases": [
+      "On Super Evolve",
+      "超進化時"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.17"
+    ]
+  },
+  "QUICK": {
+    "concept_id": "QUICK",
+    "jp": "クイック",
+    "canonical_cn": "快速",
+    "aliases_cn": [
+      "快速"
+    ],
+    "aliases_jp": [
+      "クイック"
+    ],
+    "aliases_player": [
+      "Quick"
+    ],
+    "aliases_en": [
+      "Quick"
+    ],
+    "aliases": [
+      "Quick",
+      "クイック"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.3"
+    ]
+  },
+  "RUSH": {
+    "concept_id": "RUSH",
+    "jp": "突進",
+    "canonical_cn": "突进",
+    "aliases_cn": [
+      "突进"
+    ],
+    "aliases_jp": [
+      "突進"
+    ],
+    "aliases_player": [
+      "突击"
+    ],
+    "aliases_en": [
+      "Rush"
+    ],
+    "aliases": [
+      "突击",
+      "Rush",
+      "突進"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.10"
+    ]
+  },
+  "STORM": {
+    "concept_id": "STORM",
+    "jp": "疾走",
+    "canonical_cn": "疾驰",
+    "aliases_cn": [
+      "疾驰"
+    ],
+    "aliases_jp": [
+      "疾走"
+    ],
+    "aliases_player": [
+      "疾走",
+      "冲锋",
+      "疾跑"
+    ],
+    "aliases_en": [
+      "Storm"
+    ],
+    "aliases": [
+      "疾走",
+      "冲锋",
+      "疾跑",
+      "Storm"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.9"
+    ]
+  },
+  "SUPER_EVOLVE": {
+    "concept_id": "SUPER_EVOLVE",
+    "jp": "超進化",
+    "canonical_cn": "超进化",
+    "aliases_cn": [
+      "超进化"
+    ],
+    "aliases_jp": [
+      "超進化"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Super Evolve"
+    ],
+    "aliases": [
+      "Super Evolve",
+      "超進化"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.2.4"
+    ]
+  },
+  "TARGETED_ATTACK": {
+    "concept_id": "TARGETED_ATTACK",
+    "jp": "指定攻撃",
+    "canonical_cn": "指定攻击",
+    "aliases_cn": [
+      "指定攻击"
+    ],
+    "aliases_jp": [
+      "指定攻撃"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "指定攻撃"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.11"
+    ]
+  },
+  "TERM_8FDB_5316_76F8_5F53": {
+    "concept_id": "TERM_8FDB_5316_76F8_5F53",
+    "jp": "進化相当能力",
+    "canonical_cn": "进化相当能力",
+    "aliases_cn": [
+      "进化相当能力"
+    ],
+    "aliases_jp": [
+      "進化相当能力"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "進化相当能力"
+    ],
+    "category": "keyword",
+    "rule_refs": []
+  },
+  "TERM_9644_4F53": {
+    "concept_id": "TERM_9644_4F53",
+    "jp": "憑依",
+    "canonical_cn": "附体",
+    "aliases_cn": [
+      "附体"
+    ],
+    "aliases_jp": [
+      "憑依",
+      "ライド"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "憑依",
+      "ライド"
+    ],
+    "category": "keyword",
+    "rule_refs": []
+  },
+  "WARD": {
+    "concept_id": "WARD",
+    "jp": "守護",
+    "canonical_cn": "守护",
+    "aliases_cn": [
+      "守护"
+    ],
+    "aliases_jp": [
+      "守護"
+    ],
+    "aliases_player": [
+      "嘲讽"
+    ],
+    "aliases_en": [
+      "Ward"
+    ],
+    "aliases": [
+      "嘲讽",
+      "Ward",
+      "守護"
+    ],
+    "category": "keyword",
+    "rule_refs": [
+      "12.8"
+    ]
+  },
+  "COMBO": {
+    "concept_id": "COMBO",
+    "jp": "コンボ",
+    "canonical_cn": "连击",
+    "aliases_cn": [
+      "连击"
+    ],
+    "aliases_jp": [
+      "コンボ"
+    ],
+    "aliases_player": [
+      "Combo"
+    ],
+    "aliases_en": [
+      "Combo"
+    ],
+    "aliases": [
+      "Combo",
+      "コンボ"
+    ],
+    "category": "class_keyword",
+    "rule_refs": [
+      "13.2"
+    ]
+  },
+  "CRIMSON": {
+    "concept_id": "CRIMSON",
+    "jp": "真紅",
+    "canonical_cn": "真红",
+    "aliases_cn": [
+      "真红"
+    ],
+    "aliases_jp": [
+      "真紅"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Crimson"
+    ],
+    "aliases": [
+      "Crimson",
+      "真紅"
+    ],
+    "category": "class_keyword",
+    "rule_refs": [
+      "13.5.2"
+    ]
+  },
+  "EARTH_RITE": {
+    "concept_id": "EARTH_RITE",
+    "jp": "土の秘術",
+    "canonical_cn": "土之秘术",
+    "aliases_cn": [
+      "土之秘术"
+    ],
+    "aliases_jp": [
+      "土の秘術"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Earth Rite"
+    ],
+    "aliases": [
+      "Earth Rite",
+      "土の秘術"
+    ],
+    "category": "class_keyword",
+    "rule_refs": [
+      "13.3.3"
+    ]
+  },
+  "NECROCHARGE": {
+    "concept_id": "NECROCHARGE",
+    "jp": "ネクロチャージ",
+    "canonical_cn": "死灵充能",
+    "aliases_cn": [
+      "死灵充能",
+      "唤灵充能"
+    ],
+    "aliases_jp": [
+      "ネクロチャージ"
+    ],
+    "aliases_player": [
+      "NC"
+    ],
+    "aliases_en": [
+      "NC",
+      "Necrocharge"
+    ],
+    "aliases": [
+      "唤灵充能",
+      "NC",
+      "Necrocharge",
+      "ネクロチャージ"
+    ],
+    "category": "class_keyword",
+    "rule_refs": [
+      "13.5.1"
+    ]
+  },
+  "OVERFLOW": {
+    "concept_id": "OVERFLOW",
+    "jp": "覚醒",
+    "canonical_cn": "觉醒",
+    "aliases_cn": [
+      "觉醒"
+    ],
+    "aliases_jp": [
+      "覚醒"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Overflow"
+    ],
+    "aliases": [
+      "Overflow",
+      "覚醒"
+    ],
+    "category": "class_keyword",
+    "rule_refs": [
+      "13.4"
+    ]
+  },
+  "SPELLCHAIN": {
+    "concept_id": "SPELLCHAIN",
+    "jp": "スペルチェイン",
+    "canonical_cn": "魔力连锁",
+    "aliases_cn": [
+      "魔力连锁"
+    ],
+    "aliases_jp": [
+      "スペルチェイン"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "SC"
+    ],
+    "aliases": [
+      "SC",
+      "スペルチェイン"
+    ],
+    "category": "class_keyword",
+    "rule_refs": []
+  },
+  "STACK": {
+    "concept_id": "STACK",
+    "jp": "スタック",
+    "canonical_cn": "土片层数",
+    "aliases_cn": [
+      "土片层数",
+      "蓄积"
+    ],
+    "aliases_jp": [
+      "スタック"
+    ],
+    "aliases_player": [
+      "Stack"
+    ],
+    "aliases_en": [
+      "Stack"
+    ],
+    "aliases": [
+      "蓄积",
+      "Stack",
+      "スタック"
+    ],
+    "category": "class_keyword",
+    "rule_refs": [
+      "13.3.2"
+    ]
+  },
+  "STACK_COUNTER": {
+    "concept_id": "STACK_COUNTER",
+    "jp": "スタックカウンター",
+    "canonical_cn": "土片计数物",
+    "aliases_cn": [
+      "土片计数物",
+      "Stack 计数物",
+      "蓄积指示物"
+    ],
+    "aliases_jp": [
+      "スタックカウンター"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Stack counter"
+    ],
+    "aliases": [
+      "Stack 计数物",
+      "蓄积指示物",
+      "Stack counter",
+      "スタックカウンター"
+    ],
+    "category": "class_keyword",
+    "rule_refs": [
+      "13.3.2"
+    ]
+  },
+  "CARROT": {
+    "concept_id": "CARROT",
+    "jp": "にんじん",
+    "canonical_cn": "胡萝卜",
+    "aliases_cn": [
+      "胡萝卜"
+    ],
+    "aliases_jp": [
+      "にんじん"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Carrot"
+    ],
+    "aliases": [
+      "Carrot",
+      "にんじん"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.2.1"
+    ]
+  },
+  "CRITICAL_TRIGGER": {
+    "concept_id": "CRITICAL_TRIGGER",
+    "jp": "クリティカルトリガー",
+    "canonical_cn": "暴击触发",
+    "aliases_cn": [
+      "暴击触发"
+    ],
+    "aliases_jp": [
+      "クリティカルトリガー"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Critical Trigger"
+    ],
+    "aliases": [
+      "Critical Trigger",
+      "クリティカルトリガー"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.1"
+    ]
+  },
+  "DRAW_TRIGGER": {
+    "concept_id": "DRAW_TRIGGER",
+    "jp": "ドロートリガー",
+    "canonical_cn": "抽牌触发",
+    "aliases_cn": [
+      "抽牌触发"
+    ],
+    "aliases_jp": [
+      "ドロートリガー"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Draw Trigger"
+    ],
+    "aliases": [
+      "Draw Trigger",
+      "ドロートリガー"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.1"
+    ]
+  },
+  "DRIVE": {
+    "concept_id": "DRIVE",
+    "jp": "ドライブ",
+    "canonical_cn": "驱动",
+    "aliases_cn": [
+      "驱动",
+      "驾驶"
+    ],
+    "aliases_jp": [
+      "ドライブ"
+    ],
+    "aliases_player": [
+      "Drive"
+    ],
+    "aliases_en": [
+      "Drive"
+    ],
+    "aliases": [
+      "驾驶",
+      "Drive",
+      "ドライブ"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.7"
+    ]
+  },
+  "DRIVE_CHECK": {
+    "concept_id": "DRIVE_CHECK",
+    "jp": "ドライブチェック",
+    "canonical_cn": "驱动检查",
+    "aliases_cn": [
+      "驱动检查",
+      "驾驶检定"
+    ],
+    "aliases_jp": [
+      "ドライブチェック"
+    ],
+    "aliases_player": [
+      "Drive Check"
+    ],
+    "aliases_en": [
+      "Drive Check"
+    ],
+    "aliases": [
+      "驾驶检定",
+      "Drive Check",
+      "ドライブチェック"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.5"
+    ]
+  },
+  "DRIVE_POINT": {
+    "concept_id": "DRIVE_POINT",
+    "jp": "ドライブポイント",
+    "canonical_cn": "驱动点",
+    "aliases_cn": [
+      "驱动点",
+      "驾驶点数"
+    ],
+    "aliases_jp": [
+      "ドライブポイント"
+    ],
+    "aliases_player": [
+      "Drive Point"
+    ],
+    "aliases_en": [
+      "Drive Point"
+    ],
+    "aliases": [
+      "驾驶点数",
+      "Drive Point",
+      "ドライブポイント"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.9"
+    ]
+  },
+  "EQUIPPED": {
+    "concept_id": "EQUIPPED",
+    "jp": "装備している",
+    "canonical_cn": "装备中",
+    "aliases_cn": [
+      "装备中",
+      "正装备"
+    ],
+    "aliases_jp": [
+      "装備している"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Equipped"
+    ],
+    "aliases": [
+      "正装备",
+      "Equipped",
+      "装備している"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.5.2"
+    ]
+  },
+  "HEAL_TRIGGER": {
+    "concept_id": "HEAL_TRIGGER",
+    "jp": "ヒールトリガー",
+    "canonical_cn": "治疗触发",
+    "aliases_cn": [
+      "治疗触发",
+      "治愈触发"
+    ],
+    "aliases_jp": [
+      "ヒールトリガー"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Heal Trigger"
+    ],
+    "aliases": [
+      "治愈触发",
+      "Heal Trigger",
+      "ヒールトリガー"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.1"
+    ]
+  },
+  "LESSON": {
+    "concept_id": "LESSON",
+    "jp": "レッスン",
+    "canonical_cn": "课程",
+    "aliases_cn": [
+      "课程",
+      "练习"
+    ],
+    "aliases_jp": [
+      "レッスン"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Lesson"
+    ],
+    "aliases": [
+      "练习",
+      "Lesson",
+      "レッスン"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.3.2"
+    ]
+  },
+  "MAGIC_ITEM": {
+    "concept_id": "MAGIC_ITEM",
+    "jp": "魔法のアイテム",
+    "canonical_cn": "魔法道具",
+    "aliases_cn": [
+      "魔法道具",
+      "魔法物品"
+    ],
+    "aliases_jp": [
+      "魔法のアイテム"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Magic Item"
+    ],
+    "aliases": [
+      "魔法物品",
+      "Magic Item",
+      "魔法のアイテム"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.3.1"
+    ]
+  },
+  "ON_DRIVE_GAINED": {
+    "concept_id": "ON_DRIVE_GAINED",
+    "jp": "ドライブ獲得時",
+    "canonical_cn": "获得 Drive 时",
+    "aliases_cn": [
+      "获得 Drive 时",
+      "驱动获得时",
+      "驾驶获得时"
+    ],
+    "aliases_jp": [
+      "ドライブ獲得時"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "On Drive Gained"
+    ],
+    "aliases": [
+      "驱动获得时",
+      "驾驶获得时",
+      "On Drive Gained",
+      "ドライブ獲得時"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.8"
+    ]
+  },
+  "ON_RACE": {
+    "concept_id": "ON_RACE",
+    "jp": "出走時",
+    "canonical_cn": "出走时",
+    "aliases_cn": [
+      "出走时",
+      "参赛时"
+    ],
+    "aliases_jp": [
+      "出走時"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "On Race"
+    ],
+    "aliases": [
+      "参赛时",
+      "On Race",
+      "出走時"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.2.4"
+    ]
+  },
+  "RIDE": {
+    "concept_id": "RIDE",
+    "jp": "憑依（ライド）",
+    "canonical_cn": "凭依",
+    "aliases_cn": [
+      "凭依"
+    ],
+    "aliases_jp": [
+      "憑依（ライド）"
+    ],
+    "aliases_player": [
+      "Ride"
+    ],
+    "aliases_en": [
+      "Ride"
+    ],
+    "aliases": [
+      "Ride",
+      "憑依（ライド）"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.9"
+    ]
+  },
+  "SINGLE_DRIVE": {
+    "concept_id": "SINGLE_DRIVE",
+    "jp": "シングルドライブ",
+    "canonical_cn": "单驱动",
+    "aliases_cn": [
+      "单驱动",
+      "单驾驶"
+    ],
+    "aliases_jp": [
+      "シングルドライブ"
+    ],
+    "aliases_player": [
+      "Single Drive"
+    ],
+    "aliases_en": [
+      "Single Drive"
+    ],
+    "aliases": [
+      "单驾驶",
+      "Single Drive",
+      "シングルドライブ"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.6"
+    ]
+  },
+  "STAND_TRIGGER": {
+    "concept_id": "STAND_TRIGGER",
+    "jp": "スタンドトリガー",
+    "canonical_cn": "竖置触发",
+    "aliases_cn": [
+      "竖置触发"
+    ],
+    "aliases_jp": [
+      "スタンドトリガー"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Stand Trigger"
+    ],
+    "aliases": [
+      "Stand Trigger",
+      "スタンドトリガー"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.1"
+    ]
+  },
+  "START_AMULET": {
+    "concept_id": "START_AMULET",
+    "jp": "スタートアミュレット",
+    "canonical_cn": "起始护符",
+    "aliases_cn": [
+      "起始护符",
+      "先护符"
+    ],
+    "aliases_jp": [
+      "スタートアミュレット"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Start Amulet"
+    ],
+    "aliases": [
+      "先护符",
+      "Start Amulet",
+      "スタートアミュレット"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.4"
+    ]
+  },
+  "TERM_51FA_8D70": {
+    "concept_id": "TERM_51FA_8D70",
+    "jp": "出走",
+    "canonical_cn": "出走",
+    "aliases_cn": [
+      "出走",
+      "参赛"
+    ],
+    "aliases_jp": [
+      "出走"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "参赛"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.2.3"
+    ]
+  },
+  "TERM_8FDB_98DF": {
+    "concept_id": "TERM_8FDB_98DF",
+    "jp": "食事",
+    "canonical_cn": "进食",
+    "aliases_cn": [
+      "进食",
+      "用餐"
+    ],
+    "aliases_jp": [
+      "食事"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "用餐",
+      "食事"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.2.1-14.2.2"
+    ]
+  },
+  "TITLE_CONSTRUCTION": {
+    "concept_id": "TITLE_CONSTRUCTION",
+    "jp": "タイトル構築",
+    "canonical_cn": "标题构筑",
+    "aliases_cn": [
+      "标题构筑",
+      "作品构筑"
+    ],
+    "aliases_jp": [
+      "タイトル構築"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Title construction"
+    ],
+    "aliases": [
+      "作品构筑",
+      "Title construction",
+      "タイトル構築"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "6.1.1.5.2"
+    ]
+  },
+  "TRIGGER_ICON": {
+    "concept_id": "TRIGGER_ICON",
+    "jp": "トリガーアイコン",
+    "canonical_cn": "触发图标",
+    "aliases_cn": [
+      "触发图标"
+    ],
+    "aliases_jp": [
+      "トリガーアイコン"
+    ],
+    "aliases_player": [],
+    "aliases_en": [
+      "Trigger icon"
+    ],
+    "aliases": [
+      "Trigger icon",
+      "トリガーアイコン"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.1"
+    ]
+  },
+  "TWIN_DRIVE": {
+    "concept_id": "TWIN_DRIVE",
+    "jp": "ツインドライブ",
+    "canonical_cn": "双驱动",
+    "aliases_cn": [
+      "双驱动",
+      "双驾驶"
+    ],
+    "aliases_jp": [
+      "ツインドライブ"
+    ],
+    "aliases_player": [
+      "Twin Drive"
+    ],
+    "aliases_en": [
+      "Twin Drive"
+    ],
+    "aliases": [
+      "双驾驶",
+      "Twin Drive",
+      "ツインドライブ"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.4.6"
+    ]
+  },
+  "UNION_BURST": {
+    "concept_id": "UNION_BURST",
+    "jp": "ユニオンバースト",
+    "canonical_cn": "联合爆发",
+    "aliases_cn": [
+      "联合爆发"
+    ],
+    "aliases_jp": [
+      "ユニオンバースト"
+    ],
+    "aliases_player": [
+      "UB"
+    ],
+    "aliases_en": [
+      "UB",
+      "Union Burst"
+    ],
+    "aliases": [
+      "UB",
+      "Union Burst",
+      "ユニオンバースト"
+    ],
+    "category": "title_keyword",
+    "rule_refs": [
+      "14.5.1"
+    ]
+  },
+  "TERM_5361_724C": {
+    "concept_id": "TERM_5361_724C",
+    "jp": "カード",
+    "canonical_cn": "卡牌",
+    "aliases_cn": [
+      "卡牌"
+    ],
+    "aliases_jp": [
+      "カード"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "カード"
+    ],
+    "category": "mechanic",
+    "rule_refs": []
+  },
+  "TERM_6307_793A_7269": {
+    "concept_id": "TERM_6307_793A_7269",
+    "jp": "カウンター",
+    "canonical_cn": "指示物",
+    "aliases_cn": [
+      "指示物"
+    ],
+    "aliases_jp": [
+      "カウンター"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "カウンター"
+    ],
+    "category": "mechanic",
+    "rule_refs": []
+  },
+  "TERM_65E0_9650_5FAA_73AF": {
+    "concept_id": "TERM_65E0_9650_5FAA_73AF",
+    "jp": "永久循環",
+    "canonical_cn": "无限循环",
+    "aliases_cn": [
+      "无限循环"
+    ],
+    "aliases_jp": [
+      "永久循環"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "永久循環"
+    ],
+    "category": "mechanic",
+    "rule_refs": []
+  },
+  "TERM_6CE8_91CA_6587_672C": {
+    "concept_id": "TERM_6CE8_91CA_6587_672C",
+    "jp": "注釈文",
+    "canonical_cn": "注释文本",
+    "aliases_cn": [
+      "注释文本"
+    ],
+    "aliases_jp": [
+      "注釈文"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "注釈文"
+    ],
+    "category": "mechanic",
+    "rule_refs": []
+  },
+  "TERM_6D17_724C": {
+    "concept_id": "TERM_6D17_724C",
+    "jp": "シャッフル",
+    "canonical_cn": "洗牌",
+    "aliases_cn": [
+      "洗牌"
+    ],
+    "aliases_jp": [
+      "シャッフル"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "シャッフル"
+    ],
+    "category": "mechanic",
+    "rule_refs": []
+  },
+  "TERM_6E38_620F_51C6_5907": {
+    "concept_id": "TERM_6E38_620F_51C6_5907",
+    "jp": "ゲームの準備",
+    "canonical_cn": "游戏准备",
+    "aliases_cn": [
+      "游戏准备"
+    ],
+    "aliases_jp": [
+      "ゲームの準備"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "ゲームの準備"
+    ],
+    "category": "mechanic",
+    "rule_refs": []
+  },
+  "TERM_6E38_620F_8FDB_884C": {
+    "concept_id": "TERM_6E38_620F_8FDB_884C",
+    "jp": "ゲームの進行",
+    "canonical_cn": "游戏进行",
+    "aliases_cn": [
+      "游戏进行"
+    ],
+    "aliases_jp": [
+      "ゲームの進行"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "ゲームの進行"
+    ],
+    "category": "mechanic",
+    "rule_refs": []
+  },
+  "TERM_724C_7EC4_6784_7B51": {
+    "concept_id": "TERM_724C_7EC4_6784_7B51",
+    "jp": "デッキ構築",
+    "canonical_cn": "牌组构筑",
+    "aliases_cn": [
+      "牌组构筑"
+    ],
+    "aliases_jp": [
+      "デッキ構築"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "デッキ構築"
+    ],
+    "category": "mechanic",
+    "rule_refs": []
+  },
+  "TERM_7B80_7565_5316": {
+    "concept_id": "TERM_7B80_7565_5316",
+    "jp": "簡略化",
+    "canonical_cn": "简略化",
+    "aliases_cn": [
+      "简略化"
+    ],
+    "aliases_jp": [
+      "簡略化"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "簡略化"
+    ],
+    "category": "mechanic",
+    "rule_refs": []
+  },
+  "TERM_81EA_884C_66FF_6362": {
+    "concept_id": "TERM_81EA_884C_66FF_6362",
+    "jp": "引き直し",
+    "canonical_cn": "自行替换",
+    "aliases_cn": [
+      "自行替换"
+    ],
+    "aliases_jp": [
+      "引き直し"
+    ],
+    "aliases_player": [],
+    "aliases_en": [],
+    "aliases": [
+      "引き直し"
+    ],
+    "category": "mechanic",
+    "rule_refs": []
+  },
+  "X": {
+    "concept_id": "X",
+    "jp": "X",
+    "canonical_cn": "X",
+    "aliases_cn": [],
+    "aliases_jp": [
+      "X"
+    ],
+    "aliases_player": [
+      "X"
+    ],
+    "aliases_en": [
+      "X"
+    ],
+    "aliases": [],
+    "category": "mechanic",
+    "rule_refs": []
+  }
+}

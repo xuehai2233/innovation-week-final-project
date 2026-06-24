@@ -1,0 +1,28 @@
+# 影之诗进化对决 AI裁判 - Python 依赖
+# 安装: pip install -r requirements.txt
+
+# Web 框架
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# HTTP 请求
+requests>=2.32.0
+
+# DeepSeek API（OpenAI 兼容 SDK）
+openai>=1.50.0
+
+# 向量检索
+faiss-cpu>=1.8.0
+numpy>=1.26.0
+
+# Embedding (BGE-M3 优先，降级用 TF-IDF)
+sentence-transformers>=3.0.0
+
+# TF-IDF 降级方案依赖
+scikit-learn>=1.4.0
+
+# 进度条
+tqdm>=4.66.0
+
+# 数据验证
+pydantic>=2.0.0
