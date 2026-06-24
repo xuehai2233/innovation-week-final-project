@@ -1,0 +1,11 @@
+# Text files with LF line endings
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.txt text eol=lf
+*.html text eol=lf
+
+# Binary files
+*.pdf binary
+*.pyc binary
